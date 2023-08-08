@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f6f7;
+  line-height: 1.5;
+  font-family: "Caveat", cursive;
+}
+
+.App {
+  text-align: center;
+  margin: 2rem 0;
+  padding: 1rem;
+  max-width: 1100px;
+  margin: auto;
+}
+
+main > h1 {
+  text-align: center;
+  color: #c0776a;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.App > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  grid-gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card {
+  width: 12rem auto;
+  background: #fff;
+  color: #e4c439;
+  padding: 1rem;
+  border-radius: 10px;
+  border-top: 0.5px solid #ce8e7b;
+  border-bottom: 0.5px solid #ce8e7b;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.2s ease-in-out all;
+}
+
+.Card:hover {
+  transform: scale(1.05);
+}
+
+.Card--id {
+  background: #ce8e7b;
+  width: 3rem;
+  color: #fff;
+  padding: 0.1rem;
+  font-weight: 700;
+  position: absolute;
+  border-radius: 0 0 10px 0;
+  top: 0;
+  left: 0;
+}
+.Card--name {
+  text-transform: capitalize;
+  color: #444;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.Card--image {
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+
+.Card--details {
+  font-size: 1.3rem;
+  color: #db8e80;
+}
+
+button {
+  background: #c0776a;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+  padding: 0.5rem;
+  margin: 2rem 1rem;
+  cursor: pointer;
+}

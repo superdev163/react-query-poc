@@ -1,0 +1,28 @@
+{
+  "name": "study-react-query",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "axios": "^0.21.1",
+    "formik": "^2.2.6",
+    "next": "^11.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-easy-swipe": "^0.0.21",
+    "react-query": "^3.13.2",
+    "react-responsive-carousel": "^3.2.18",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "^2.0.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.9"
+  }
+}
