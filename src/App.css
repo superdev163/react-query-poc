@@ -50,6 +50,7 @@ main > h1 {
   overflow: hidden;
   cursor: pointer;
   transition: 0.2s ease-in-out all;
+  height: 300px;
 }
 
 .Card:hover {
